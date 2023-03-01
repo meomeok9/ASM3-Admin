@@ -1,0 +1,9 @@
+.loading {
+  background-color: rgb(33, 35, 61);
+  width: 100%;
+  color: white;
+}
+.loading h1 {
+  margin-top: 50vh;
+  text-align: center;
+}

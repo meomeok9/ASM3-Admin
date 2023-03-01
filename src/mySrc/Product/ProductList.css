@@ -1,0 +1,50 @@
+.product_list_container {
+  background-color: rgb(33, 35, 61);
+  width: 85%;
+}
+.product_list_container h2 {
+  color: white;
+}
+.product_list_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.product_list_head button {
+  padding: 0.5rem 1rem;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: green;
+  cursor: pointer;
+}
+.transcheckbox {
+  width: 2%;
+}
+.product_table {
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+.trans_page {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.trans_page p {
+  height: 1rem;
+  margin: 0 1rem;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+.trans_page span {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.trans_page span:hover {
+  transform: scale(1.3);
+}

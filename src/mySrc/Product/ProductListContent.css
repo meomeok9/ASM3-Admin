@@ -1,0 +1,22 @@
+.hotels_container {
+  display: flex;
+  margin-top: 1px;
+  justify-content: center;
+  align-items: center;
+}
+.actionContainer {
+  width: 15%;
+  display: flex;
+
+  justify-content: space-around;
+  background-color: darkgray;
+  margin-left: 1px;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0.1rem 0.2rem;
+}
+.actionContainer button {
+  padding: 0.2rem 1rem;
+  color: chocolate;
+  cursor: pointer;
+}

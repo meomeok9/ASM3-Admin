@@ -1,0 +1,25 @@
+.messages_detail {
+  margin: 2px 0;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.user_message {
+  background-color: aqua;
+  text-align: left;
+}
+.admin_reply {
+  background-color: rgb(204, 0, 255);
+  text-align: right;
+}
+.row_chat {
+  display: flex;
+  margin: 0 1rem;
+}
+.user_chat {
+  justify-content: flex-start;
+}
+.reply {
+  color: white;
+  justify-content: flex-end;
+}

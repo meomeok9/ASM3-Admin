@@ -1,0 +1,13 @@
+.mainAdmin {
+  display: flex;
+}
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(33, 35, 61);
+}
+.homeContent h1 {
+    margin: 5rem;
+  color: white;
+}

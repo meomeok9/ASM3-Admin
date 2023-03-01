@@ -1,0 +1,58 @@
+.detail_main_container {
+  display: flex;
+  color: white;
+  background-color: rgb(33, 35, 61);
+}
+.main_order_container {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_order_container p {
+  margin-left: 1rem;
+}
+.main_order_container button {
+  padding: 1rem 3rem;
+  color: white;
+  background-color: chocolate;
+  border: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.margin_left {
+  margin-left: 5rem;
+}
+.order_detail_table {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.order_title {
+  display: flex;
+  margin-left: 3rem;
+  width: 100%;
+}
+.h5_14 {
+  width: 18%;
+  text-align: center;
+  overflow-wrap: anywhere;
+  padding: 0.5rem 0.2rem;
+  background-color: blueviolet;
+  margin: 0 0 0 1px;
+  color: white;
+  font-size: 20px;
+}
+.longger_h5 {
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+  padding: 0.5rem 0.2rem;
+  background-color: blueviolet;
+  margin: 0 0 0 1px;
+  color: white;
+}

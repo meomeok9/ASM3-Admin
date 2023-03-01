@@ -1,0 +1,36 @@
+.detail_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.detail_container h1 {
+  text-align: center;
+}
+.detail_head {
+  display: flex;
+  width: 90%;
+  margin: 0 3rem;
+  margin-top: 1px;
+}
+.trans_page {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.trans_page p {
+  height: 1rem;
+  margin: 0 1rem;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+.trans_page span {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.trans_page span:hover {
+  transform: scale(1.3);
+}

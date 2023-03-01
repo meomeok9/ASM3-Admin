@@ -1,0 +1,7 @@
+.orders_container {
+  width: 100%;
+  background-color: rgb(33, 35, 61);
+}
+.orders_container h1 {
+  color: chocolate;
+}

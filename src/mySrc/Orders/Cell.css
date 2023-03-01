@@ -1,0 +1,35 @@
+.cell_container {
+  display: flex;
+  margin-left: 1px;
+  padding: 0.2rem 0.2rem;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.cell_container p {
+  margin: 0;
+}
+.cell_head {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background-color: aqua;
+}
+.cell_detail {
+  background-color: darkgray;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+.order_detail_button {
+  padding: 0.5rem 0.5rem;
+  background-color: rgb(0, 255, 128);
+  border: none;
+  cursor: pointer;
+  color: white;
+  user-select: none;
+}
+.cell_container img{
+    margin-left: 1px;
+}

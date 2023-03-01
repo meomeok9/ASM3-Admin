@@ -1,0 +1,17 @@
+.inforbar_container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(33, 35, 61);
+}
+.inforbar_container div{
+    width: 25%;
+}
+.inforbar_container h3{
+    color: blueviolet;
+}
+.inforbar_container p{
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
