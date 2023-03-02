@@ -2,8 +2,8 @@ import { useCallback } from "react";
 import axios from "axios";
 
 const useFetch = () => {
-  const url = "https://asm3-be-theta.vercel.app";
-
+  // const url = "https://asm3-be-theta.vercel.app";
+  const url = "https://assignment3backend.vercel.app/";
   const sendGetRequest = useCallback(async (endPoint, getData) => {
     try {
       const res = await axios({
