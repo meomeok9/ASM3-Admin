@@ -18,7 +18,9 @@ import { useEffect } from "react";
 import useFetch from "./mySrc/hooks/useFetch";
 
 function App() {
-  const socket = io("localhost:5000", { transports: ["websocket"] });
+  const socket = io("https://asm3be17428.onrender.com", {
+    transports: ["websocket"],
+  });
   const dispatch = useDispatch();
   const { sendGetRequest } = useFetch();
 
