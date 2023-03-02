@@ -3,7 +3,7 @@ import axios from "axios";
 
 const useFetch = () => {
   // const url = "https://asm3-be-theta.vercel.app";
-  const url = "https://assignment3backend.vercel.app";
+  const url = "https://asm3be17428.onrender.com";
   const sendGetRequest = useCallback(async (endPoint, getData) => {
     try {
       const res = await axios({
