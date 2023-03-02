@@ -1,8 +1,10 @@
 import { Fragment, useEffect, useState } from "react";
 import useFetch from "../../hooks/useFetch";
+import useFixUrl from "../../hooks/useFixUrl";
 
 import "./AddProductForm.css";
 const AddProductForm = (props) => {
+  const { fix } = useFixUrl();
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
   const [shortDesc, setShortDesc] = useState("");
@@ -27,26 +29,10 @@ const AddProductForm = (props) => {
         setCategory(d.category);
         setShortDesc(d.short_desc);
         setLongDesc(d.long_desc);
-        setImg1(
-          d.img1.includes("https://")
-            ? d.img1
-            : `http://localhost:5000/${d.img1}`
-        );
-        setImg2(
-          d.img2.includes("https://")
-            ? d.img2
-            : `http://localhost:5000/${d.img2}`
-        );
-        setImg3(
-          d.img3.includes("https://")
-            ? d.img3
-            : `http://localhost:5000/${d.img3}`
-        );
-        setImg4(
-          d.img4.includes("https://")
-            ? d.img4
-            : `http://localhost:5000/${d.img4}`
-        );
+        setImg1(fix(d.img1));
+        setImg2(fix(d.img2));
+        setImg3(fix(d.img3));
+        setImg4(fix(d.img4));
 
         if (d.inventory) setInventory(d.inventory);
       };
